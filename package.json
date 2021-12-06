@@ -10,11 +10,15 @@
     "type": "git",
     "url": "git+https://kavita202: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@github.com/SchoolOfCode/node-101-workshop-kavita-enia.git"
   },
+  "type": "module",
   "keywords": [],
   "author": "Kavita, Enia",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SchoolOfCode/node-101-workshop-kavita-enia/issues"
   },
-  "homepage": "https://github.com/SchoolOfCode/node-101-workshop-kavita-enia#readme"
+  "homepage": "https://github.com/SchoolOfCode/node-101-workshop-kavita-enia#readme",
+  "dependencies": {
+    "chalk": "^5.0.0"
+  }
 }
