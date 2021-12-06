@@ -17,6 +17,7 @@ function describeItem(item) {
     }
 };
 
+<<<<<<< HEAD
 // describeItem("School of Code hat")
 
 
@@ -30,3 +31,15 @@ describeCollection(myCollection)
 
 // part 3
 
+=======
+//describeItem("School of Code hat")
+
+function describeCollection(array) {
+  for(let i = 0; i < array.length; i++){
+    //console.log(array[i])
+    describeItem(array[i].name)
+  }
+}
+
+describeCollection(myCollection)
+>>>>>>> 1e084a0aa3c9a7ed2d1c181fc6ac7ae1b9912490
