@@ -34,4 +34,13 @@ function describeItem(item) {
     }
 };
 
-describeItem("School of Code hat")
+//describeItem("School of Code hat")
+
+function describeCollection(array) {
+  for(let i = 0; i < array.length; i++){
+    //console.log(array[i])
+    describeItem(array[i].name)
+  }
+}
+
+describeCollection(myCollection)
